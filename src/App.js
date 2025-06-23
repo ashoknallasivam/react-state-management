@@ -9,6 +9,12 @@ import IncrementContext from "./IncrementContext";
 import Counter from "./components/Counter";
 import UserData from "./components/UserData";
 import LikeButton from "./components/LikeButton";
+import FilteredList from "./components/FilteredList";
+import UserList from "./components/UserList";
+import LoginForm from "./components/LoginForm";
+import Stopwatch from "./components/Stopwatch";
+import OnboardingWizard from "./components/OnboardingWizard";
+
 /* Example for Creating a Blog using Redux Saga */
 export default function App() {
   return (
@@ -18,8 +24,11 @@ export default function App() {
       <Counter />
       <UserData />
       <LikeButton />
+      <FilteredList />
+      <UserList />
+      <LoginForm />
+      <Stopwatch />
+      <OnboardingWizard />
     </div>
   );
 }
-
-() => {};

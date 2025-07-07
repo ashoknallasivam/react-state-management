@@ -8,12 +8,15 @@ import IncrementContext from "./IncrementContext";
 /* Example for Lifting state from Child to Parent using Only Redux (React-Redux Toolkit) */
 import Counter from "./components/Counter";
 import UserData from "./components/UserData";
+import ZustandCounter from "./components/ZustandCounter";
 import LikeButton from "./components/LikeButton";
 import FilteredList from "./components/FilteredList";
 import UserList from "./components/UserList";
 import LoginForm from "./components/LoginForm";
 import Stopwatch from "./components/Stopwatch";
 import OnboardingWizard from "./components/OnboardingWizard";
+import AllHookCounterApp from "./components/AllHookCounterApp";
+import SetTimeOutExample from "./components/SetTimeOutExample";
 
 /* Example for Creating a Blog using Redux Saga */
 export default function App() {
@@ -22,6 +25,7 @@ export default function App() {
       <Increment />
       <IncrementContext />
       <Counter />
+      <ZustandCounter />
       <UserData />
       <LikeButton />
       <FilteredList />
@@ -29,6 +33,8 @@ export default function App() {
       <LoginForm />
       <Stopwatch />
       <OnboardingWizard />
+      <AllHookCounterApp />
+      <SetTimeOutExample />
     </div>
   );
 }

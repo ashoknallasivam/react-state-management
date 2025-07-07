@@ -68,6 +68,17 @@
   color: white;
 }
 
+.App-header6 {
+  background-color: #439aa5;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: white;
+}
+
 .card
  {
  border: 1px solid black;
